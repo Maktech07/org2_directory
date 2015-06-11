@@ -727,3 +727,31 @@ Processing by Devise::SessionsController#new as HTML
   Rendered layouts/_navigation.html.erb (2.6ms)
   Rendered layouts/_messages.html.erb (0.3ms)
 Completed 200 OK in 123ms (Views: 121.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/statics/home" for ::1 at 2015-06-10 22:55:03 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticsController#home as HTML
+  Rendered statics/home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_navigation_links.html.erb (3.7ms)
+  Rendered layouts/_navigation.html.erb (5.1ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 607ms (Views: 606.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/statics/help" for ::1 at 2015-06-10 22:55:18 -0500
+Processing by StaticsController#help as HTML
+  Rendered statics/help.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation_links.html.erb (0.4ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 90ms (Views: 90.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/statics/about" for ::1 at 2015-06-10 22:55:25 -0500
+Processing by StaticsController#about as HTML
+  Rendered statics/about.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 126ms (Views: 125.6ms | ActiveRecord: 0.0ms)
